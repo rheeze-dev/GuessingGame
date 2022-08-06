@@ -1,0 +1,21 @@
+{
+  "name": "GuessingGame",
+  "version": "1.0.0",
+  "description": "Guess the number",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Rheeze Gyver Kalahi",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "sass": "1.54.3"
+  },
+  "dependencies": {
+    "core-js": "3.24.1",
+    "fractional": "1.0.0",
+    "regenerator-runtime": "0.13.9"
+  }
+}
