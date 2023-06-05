@@ -121,3 +121,77 @@ h1 {
 .hide {
   display: none;
 }
+
+@media only screen and (max-width: 750px) {
+  p {
+    font-size: 1.2rem !important;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  main .right {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 1rem !important;
+  }
+
+  .guess {
+    width: 20rem;
+  }
+
+  .btn {
+    padding: 1rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  p {
+    font-size: 1rem !important;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .guess {
+    width: 18rem;
+  }
+
+  .btn {
+    padding: .8rem 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  p {
+    font-size: .7rem !important;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  main .right {
+    text-align: center;
+  }
+
+  .guess {
+    width: 10rem;
+    font-size: 2rem;
+  }
+
+  .btn {
+    padding: .4rem 1rem;
+    font-size: 1rem;
+  }
+
+  .number {
+    width: 18rem !important;
+  }
+}
